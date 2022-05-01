@@ -1,0 +1,324 @@
+Задание по GitHub_1
+
+JSON
+ 4. Создать внешний репозиторий c названием JSON.      New
+                                                       Create repository
+
+ 5. Клонировать репозиторий JSON на локальный компьютер.   git clone https://github.com/JokerHD1/JSON.git
+
+ 6. Внутри локального JSON создать файл “new.json”.        cd JSON touch  new.json
+
+ 7. Добавить файл под гит.          git add new.json
+
+ 8. Закоммитить файл.               git commit -m "commit json file"
+
+ 9. Отправить файл на внешний GitHub репозиторий.  git push
+
+ 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+ 
+Вносим изменения: nano new.json
+
+{
+ "Full name": "Nikonov Igor Evgenievich",
+ "age": "24",
+ "number of pets": "0",
+ "Future desired salary": "800"
+}
+
+Cохранить и выйти: ctrl + x y ENTER
+
+ 11. Отправить изменения на внешний репозиторий.  git commit -am "edit json file"
+                                                  git push
+
+ 12. Создать файл preferences.json    touch preferences.json
+
+ 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+
+Вносим изменения: nano preferences.json
+
+{
+ "Favorite movie": "Mr. Nobody",
+ "Favorite series": "Arcane",
+ "favorite food": "Shawarma",
+ "favorite time of year": "Summer",
+ "country you'd like to visit": "New Zeland"
+}
+
+Cохранить и выйти: Ctrl + X, y, Enter
+
+ 14. Создать файл skills.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+
+Создаём файл: touch skills.json
+Вносим изменения: nano skills.json
+
+{
+    "Базовая теория": "Что такое тестирование, багрепорты, документация, виды, методы, направления тестирования, SDLC, STLC.",
+    "Клиент-сервер": "Клиент-серверная архитектура",
+    "Методы запросов на сервер": "HTTP",
+    "Коды ответов": "HTTP сервера",
+    "Структура": "JSON, XML",
+    "Тестирование API": "Postman (JS, автотесты API)",
+    "Снифинг": " http web трафика через Charles и Fiddler",
+    "Dev Tools веб браузеров": "Google Chrome, FireFox",
+    "VPN": "Как работает, зачем нужен, как использовать",
+    "ADB": "Тестирование андройд устройств",
+    "Командная строка (terminal) Linux": "Копирование, создание, просмотр, перемещение файлов на серверах без графического интерфейса",
+    "Основы SQL": "Create, Delete, Drop, Insert Into, Select, From, Where, Join",
+    "Реляционные базы данных": "Postgres, установка, настройка и использование",
+    "Нереляционная база данных": "Redis, установка, настройка и использование",
+    "Нагрузочное тестирование": "Jmeter",
+    "Методология разработки": "Scrum",
+    "Python": "Изучение основ"
+}
+
+Cохранить и выйти: ctrl+x y Enter
+
+ 15. Отправить сразу 2 файла на внешний репозиторий.   git add .
+                                                       git commit -m "add  and preferences and skills"
+                                                       git push
+
+ 16. На веб интерфейсе создать файл bug_report.json.       
+Add file						    
+Create new file JSON/bug_report.json
+Commit new file
+ 
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.  
+-edit this file   
+Пишем что-нибудь в bug_report.json                                                                
+в строке Commit changes пишем Commit changes
+Commit changes
+
+ 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+
+-edit this file
+
+{
+	"ID": 1,
+        "Version": "Windows 10",
+	"Summary": "Не переведены на русский язык тексты ошибок на форме “Заявки” на странице https://nazvanienepridumal.com в RU версии сайта",
+	"Steps": "Открыть страницу https://nazvanienepridumal.com Проскролить к форме “Заявки” Нажать на кнопку “Отправить” Обратить внимание на язык ошибок, которые появились под полями формы",
+	"Actual result": "Отображаются ошибки на русском языке",
+	"Expected result": "Отображаются ошибки на английском языке",
+	"Severity": "Minor",
+        "Attachments": "Screenshot URL: url.com"
+}
+
+19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.    в строке Commit changes пишем новый Commit
+                                                                       Commit changes
+
+20. Синхронизировать внешний и локальный репозиторий JSON       git pull
+
+
+XML
+
+ 21. Создать внешний репозиторий c названием XML.     New
+                                                      Create repository
+
+ 22. Клонировать репозиторий XML на локальный компьютер.  
+cd ..
+git clone https://github.com/JokerHD1/XML.git
+
+ 23. Внутри локального XML создать файл “new.xml”.  
+cd XML
+touch new.xml
+
+ 24. Добавить файл под гит.    git add new.xml
+ 25. Закоммитить файл.       git commit -m "add new.xml"
+
+ 26. Отправить файл на внешний GitHub репозиторий.  git push
+ 
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+
+Вносим изменения: nano new.xml
+
+<info>
+ <Full_name>Nikonov Igor Evgenievich</Full_name>
+ <Age>24</Age>
+ <Number_of_pets>0</Number_of_pets>
+ <Future_desired_salary>800</Future_desired_salary>
+</info>
+
+Cохранить и выйти: ctrl + x y enter
+
+28. Отправить изменения на внешний репозиторий.   git commit -am "edit new.xml"
+                                                  git push
+ 
+29. Создать файл preferences.xml       touch preferences.xml
+
+30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+  
+Вносим изменения: nano preferences.xml
+
+<Favorite>
+ <Favorite_movie>Mr. Nobody</Favorite_movie>
+ <Favorite_series>Arcane</Favorite_series>
+ <favorite_food>Shawarma</favorite_food>
+ <favorite_time_of_year>Summer</favorite_time_of_year>
+ <country_you_like_to_visit>New Zeland</country_you_like_to_visit>
+</Favorite>
+
+Cохранить и выйти: ctrl+x y Enter
+
+ 31. Создать файл skills.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML 
+
+Создаём файл: touch skills.xml
+Вносим изменения: nano skills.xml
+
+{
+    "Базовая теория": "Что такое тестирование, багрепорты, документация, виды, методы, направления тестирования, SDLC, STLC.",
+    "Клиент-сервер": "Клиент-серверная архитектура",
+    "Методы запросов на сервер": "HTTP",
+    "Коды ответов": "HTTP сервера",
+    "Структура": "JSON, XML",
+    "Тестирование API": "Postman (JS, автотесты API)",
+    "Снифинг": " http web трафика через Charles и Fiddler",
+    "Dev Tools веб браузеров": "Google Chrome, FireFox",
+    "VPN": "Как работает, зачем нужен, как использовать",
+    "ADB": "Тестирование андройд устройств",
+    "Командная строка (terminal) Linux": "Копирование, создание, просмотр, перемещение файлов на серверах без графического интерфейса",
+    "Основы SQL": "Create, Delete, Drop, Insert Into, Select, From, Where, Join",
+    "Реляционные базы данных": "Postgres, установка, настройка и использование",
+    "Нереляционная база данных": "Redis, установка, настройка и использование",
+    "Нагрузочное тестирование": "Jmeter",
+    "Методология разработки": "Scrum",
+    "Python": "Изучение основ"
+}
+
+Cохранить и выйти: ctrl+x y enter
+
+ 32. Сделать коммит в одну строку.                   git commit -ma "add new.xml"
+
+ 33. Отправить сразу 2 файла на внешний репозиторий.
+                                                     git add . 
+                                                     git commit -m "edit new xmls"
+                                                     git push
+
+ 34. На веб интерфейсе создать файл bug_report.xml.  
+- Add file
+- Create new file XML/bug_report.xml
+- Commit new file
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе. 
+-edit this file
+Пишем что-нибудь в bug_report.json  
+Commit changes
+
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+-edit this file
+
+<bug>
+    <ID>1</ID>,
+    <Version>Windows 10</Version>,
+    <Summary>Не переведены на русский язык тексты ошибок на форме “Заявки” на странице https://nazvanienepridumal.com в RU версии сайта</Summary>,
+    <Steps>Открыть страницу https://nazvanienepridumal.com Проскролить к форме “Заявки” Нажать на кнопку “Отправить” Обратить внимание на язык ошибок, которые появились под полями формы</Steps>,
+    <Actual_result>Отображаются ошибки на русском языке</Actual_result>,
+    <Expected_result>Отображаются ошибки на английском языке</Expected_result>,
+    <Severity>Minor</Severity>,
+    <Attachments>Screenshot URL: url.com</Attachments>
+</bug>
+
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.   
+ Commit changes
+
+ 38. Синхронизировать внешний и локальный репозиторий XML   git pull
+
+TXT
+ 1. Создать внешний репозиторий c названием TXT.       New
+                                                       Create repository
+
+ 2. Клонировать репозиторий TXT на локальный компьютер.     
+cd .. 
+git clone https://github.com/JokerHD1/TXT.git
+
+ 3. Внутри локального TXT создать файл “new.txt”.     
+cd TXT
+ touch new.txt
+
+ 4. Добавить файл под гит.     git add new.txt
+       
+ 5. Закоммитить файл.         git commit -m "add new.txt"
+
+ 6. Отправить файл на внешний GitHub репозиторий.     git push
+
+ 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+ 
+Вносим изменения: nano new.txt 
+
+Full name - Nikonov Igor Evgenievich
+AGE - 24
+Number of pets - 0
+Future desired salary - 800
+
+Cохранить и выйти: ctrl+x y Enter
+
+8. Отправить изменения на внешний репозиторий.   git commit -am "edit new.txt"
+                                                 git push
+
+ 9. Создать файл preferences.txt          touch preferences.txt
+
+ 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+
+Вносим изменения: nano preferences.txt
+
+Favorite movie - Mr. Nobody,
+Favorite series - Arcane,
+favorite food - Shawarma,
+favorite time of year - Summer,
+country you'd like to visit - New Zeland.
+
+Cохранить и выйти: ctrl + x y enter
+
+ 11. Создать файл skills.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+
+Создаём файл: touch skills.txt
+Вносим изменения nano skills.txt
+
+Базовая теория: Что такое тестирование, багрепорты, документация, виды, методы, направления тестирования, SDLC, STLC.
+Клиент-сервер: Клиент-серверная архитектура
+Методы запросов на сервер: HTTP
+Коды ответов: HTTP сервера
+Структура: JSON, XML
+Тестирование API: Postman (JS, автотесты API)
+Снифинг: web трафика через Charles и Fiddler
+Dev Tools веб браузеров: Google Chrome, FireFox
+VPN:Как работает, зачем нужен, как использовать
+ADB: Тестирование андройд устройств
+Командная строка (terminal) Linux: Копирование, создание, просмотр, перемещение файлов на серверах без графического интерфейса
+Основы SQL: Create, Delete, Drop, Insert Into, Select, From, Where, Join
+Реляционные базы данных: Postgres, установка, настройка и использование
+Нереляционная база данных: Redis, установка, настройка и использование
+Нагрузочное тестирование: Jmeter
+Методология разработки: Scrum
+Python: Изучение основ
+
+Cохранить и выйти: ctrl +x y Enter
+
+ 12. Сделать коммит в одну строку.              git commit -am "add new.txt"
+ 
+13. Отправить сразу 2 файла на внешний репозиторий.        git add . 
+                                                            git commit -am "add 2 txt"
+                                                            git push
+              
+ 14. На веб интерфейсе создать файл bug_report.txt.       Add file
+							    - Create new file bug_report.txt
+							    - Commit new file
+  
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.   -edit this file
+Что-нибудь пишем в файле bug_report.txt
+Commit changes
+ 
+ 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+ edit this file
+ID: 1
+Version: Windows 10
+Summary: Не переведены на русский язык тексты ошибок на форме “Заявки” на странице https://nazvanienepridumal.com в RU версии сайта,
+Steps: Открыть страницу https://nazvanienepridumal.com Проскролить к форме “Заявки” Нажать на кнопку “Отправить” Обратить внимание на язык ошибок, которые появились под полями формы
+Actual result: Отображаются ошибки на русском языке
+Expected result: Отображаются ошибки на английском языке
+Severity: Minor
+Attachments: Screenshot URL: url.com
+
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+Commit changes 
+ 
+ 18. Синхронизировать внешний и локальный репозиторий TXT       git pull
