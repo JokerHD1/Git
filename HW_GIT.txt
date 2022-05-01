@@ -1,20 +1,26 @@
-Задание по GitHub_1
+GIT Homework 1
 
 JSON
- 4. Создать внешний репозиторий c названием JSON.      New
-                                                       Create repository
+4. Создать внешний репозиторий c названием JSON.      
+New
+Create repository
 
- 5. Клонировать репозиторий JSON на локальный компьютер.   git clone https://github.com/JokerHD1/JSON.git
+5. Клонировать репозиторий JSON на локальный компьютер.   
+git clone https://github.com/JokerHD1/JSON.git
 
- 6. Внутри локального JSON создать файл “new.json”.        cd JSON touch  new.json
+6. Внутри локального JSON создать файл “new.json”.        
+cd JSON touch  new.json
 
- 7. Добавить файл под гит.          git add new.json
+7. Добавить файл под гит.          
+git add new.json
 
- 8. Закоммитить файл.               git commit -m "commit json file"
+8. Закоммитить файл.               
+git commit -m "commit json file"
 
- 9. Отправить файл на внешний GitHub репозиторий.  git push
+9. Отправить файл на внешний GitHub репозиторий.  
+git push
 
- 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
  
 Вносим изменения: nano new.json
 
@@ -27,14 +33,17 @@ JSON
 
 Cохранить и выйти: ctrl + x y ENTER
 
- 11. Отправить изменения на внешний репозиторий.  git commit -am "edit json file"
-                                                  git push
+11. Отправить изменения на внешний репозиторий.  
+git commit -am "edit json file"
+git push
 
- 12. Создать файл preferences.json    touch preferences.json
+12. Создать файл preferences.json    
+touch preferences.json
 
- 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
 
-Вносим изменения: nano preferences.json
+Вносим изменения: 
+nano preferences.json
 
 {
  "Favorite movie": "Mr. Nobody",
@@ -44,9 +53,9 @@ Cохранить и выйти: ctrl + x y ENTER
  "country you'd like to visit": "New Zeland"
 }
 
-Cохранить и выйти: Ctrl + X, y, Enter
+Cохранить и выйти: Ctrl + x, y, Enter
 
- 14. Создать файл skills.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+14. Создать файл skills.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
 
 Создаём файл: touch skills.json
 Вносим изменения: nano skills.json
@@ -73,24 +82,24 @@ Cохранить и выйти: Ctrl + X, y, Enter
 
 Cохранить и выйти: ctrl+x y Enter
 
- 15. Отправить сразу 2 файла на внешний репозиторий.   git add .
-                                                       git commit -m "add  and preferences and skills"
-                                                       git push
+15. Отправить сразу 2 файла на внешний репозиторий.   
+git add .
+git commit -m "add  and preferences and skills"
+git push
 
- 16. На веб интерфейсе создать файл bug_report.json.       
+16. На веб интерфейсе создать файл bug_report.json.       
 Add file						    
 Create new file JSON/bug_report.json
 Commit new file
  
 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.  
--edit this file   
+edit this file   
 Пишем что-нибудь в bug_report.json                                                                
 в строке Commit changes пишем Commit changes
 Commit changes
 
- 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
-
--edit this file
+18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+edit this file
 
 {
 	"ID": 1,
@@ -103,31 +112,36 @@ Commit changes
         "Attachments": "Screenshot URL: url.com"
 }
 
-19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.    в строке Commit changes пишем новый Commit
-                                                                       Commit changes
+19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.   
+Commit changes
 
-20. Синхронизировать внешний и локальный репозиторий JSON       git pull
-
+20. Синхронизировать внешний и локальный репозиторий JSON       
+git pull
 
 XML
 
- 21. Создать внешний репозиторий c названием XML.     New
-                                                      Create repository
+21. Создать внешний репозиторий c названием XML.     
+New
+Create repository
 
- 22. Клонировать репозиторий XML на локальный компьютер.  
+22. Клонировать репозиторий XML на локальный компьютер.  
 cd ..
 git clone https://github.com/JokerHD1/XML.git
 
- 23. Внутри локального XML создать файл “new.xml”.  
+23. Внутри локального XML создать файл “new.xml”.  
 cd XML
 touch new.xml
 
- 24. Добавить файл под гит.    git add new.xml
- 25. Закоммитить файл.       git commit -m "add new.xml"
-
- 26. Отправить файл на внешний GitHub репозиторий.  git push
+24. Добавить файл под гит.    
+ git add new.xml
  
- 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+25. Закоммитить файл.       
+ git commit -m "add new.xml"
+
+26. Отправить файл на внешний GitHub репозиторий.  
+ git push
+ 
+27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
 
 Вносим изменения: nano new.xml
 
@@ -140,10 +154,12 @@ touch new.xml
 
 Cохранить и выйти: ctrl + x y enter
 
-28. Отправить изменения на внешний репозиторий.   git commit -am "edit new.xml"
-                                                  git push
+28. Отправить изменения на внешний репозиторий.   
+git commit -am "edit new.xml"
+git push
  
-29. Создать файл preferences.xml       touch preferences.xml
+29. Создать файл preferences.xml       
+touch preferences.xml
 
 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
   
@@ -159,7 +175,7 @@ Cохранить и выйти: ctrl + x y enter
 
 Cохранить и выйти: ctrl+x y Enter
 
- 31. Создать файл skills.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML 
+31. Создать файл skills.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML 
 
 Создаём файл: touch skills.xml
 Вносим изменения: nano skills.xml
@@ -186,24 +202,25 @@ Cохранить и выйти: ctrl+x y Enter
 
 Cохранить и выйти: ctrl+x y enter
 
- 32. Сделать коммит в одну строку.                   git commit -ma "add new.xml"
+32. Сделать коммит в одну строку.                   
+git commit -ma "add new.xml"
 
- 33. Отправить сразу 2 файла на внешний репозиторий.
-                                                     git add . 
-                                                     git commit -m "edit new xmls"
-                                                     git push
+33. Отправить сразу 2 файла на внешний репозиторий.
+git add . 
+git commit -m "edit new xmls"
+git push
 
- 34. На веб интерфейсе создать файл bug_report.xml.  
-- Add file
-- Create new file XML/bug_report.xml
-- Commit new file
- 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе. 
--edit this file
+34. На веб интерфейсе создать файл bug_report.xml.  
+Add file
+Create new file XML/bug_report.xml
+Commit new file
+35. Сделать Commit changes (сохранить) изменения на веб интерфейсе. 
+edit this file
 Пишем что-нибудь в bug_report.json  
 Commit changes
 
- 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
--edit this file
+36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+edit this file
 
 <bug>
     <ID>1</ID>,
@@ -216,30 +233,34 @@ Commit changes
     <Attachments>Screenshot URL: url.com</Attachments>
 </bug>
 
- 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.   
- Commit changes
+37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.   
+Commit changes
 
- 38. Синхронизировать внешний и локальный репозиторий XML   git pull
+38. Синхронизировать внешний и локальный репозиторий XML   git pull
 
 TXT
- 1. Создать внешний репозиторий c названием TXT.       New
-                                                       Create repository
+1. Создать внешний репозиторий c названием TXT.       
+New
+Create repository TXT
 
- 2. Клонировать репозиторий TXT на локальный компьютер.     
+2. Клонировать репозиторий TXT на локальный компьютер.     
 cd .. 
 git clone https://github.com/JokerHD1/TXT.git
 
- 3. Внутри локального TXT создать файл “new.txt”.     
+3. Внутри локального TXT создать файл “new.txt”.     
 cd TXT
- touch new.txt
+touch new.txt
 
- 4. Добавить файл под гит.     git add new.txt
+4. Добавить файл под гит.     
+ git add new.txt
        
- 5. Закоммитить файл.         git commit -m "add new.txt"
+5. Закоммитить файл.         
+git commit -m "add new.txt"
 
- 6. Отправить файл на внешний GitHub репозиторий.     git push
+6. Отправить файл на внешний GitHub репозиторий.     
+git push
 
- 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
  
 Вносим изменения: nano new.txt 
 
@@ -250,12 +271,14 @@ Future desired salary - 800
 
 Cохранить и выйти: ctrl+x y Enter
 
-8. Отправить изменения на внешний репозиторий.   git commit -am "edit new.txt"
-                                                 git push
+8. Отправить изменения на внешний репозиторий.   
+git commit -am "edit new.txt"
+git push
 
- 9. Создать файл preferences.txt          touch preferences.txt
+9. Создать файл preferences.txt          
+touch preferences.txt
 
- 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
 
 Вносим изменения: nano preferences.txt
 
@@ -267,7 +290,7 @@ country you'd like to visit - New Zeland.
 
 Cохранить и выйти: ctrl + x y enter
 
- 11. Создать файл skills.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+11. Создать файл skills.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
 
 Создаём файл: touch skills.txt
 Вносим изменения nano skills.txt
@@ -292,22 +315,26 @@ Python: Изучение основ
 
 Cохранить и выйти: ctrl +x y Enter
 
- 12. Сделать коммит в одну строку.              git commit -am "add new.txt"
+12. Сделать коммит в одну строку.              
+git commit -am "add new.txt"
  
-13. Отправить сразу 2 файла на внешний репозиторий.        git add . 
-                                                            git commit -am "add 2 txt"
-                                                            git push
+13. Отправить сразу 2 файла на внешний репозиторий.        
+git add . 
+git commit -am "add 2 txt"
+git push
               
- 14. На веб интерфейсе создать файл bug_report.txt.       Add file
-							    - Create new file bug_report.txt
-							    - Commit new file
+14. На веб интерфейсе создать файл bug_report.txt.       
+Add file
+Create new file bug_report.txt
+Commit new file
   
- 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.   -edit this file
+15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.   
+edit this file
 Что-нибудь пишем в файле bug_report.txt
 Commit changes
  
- 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
- edit this file
+16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+edit this file
 ID: 1
 Version: Windows 10
 Summary: Не переведены на русский язык тексты ошибок на форме “Заявки” на странице https://nazvanienepridumal.com в RU версии сайта,
@@ -317,8 +344,8 @@ Expected result: Отображаются ошибки на английском
 Severity: Minor
 Attachments: Screenshot URL: url.com
 
- 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 Commit changes 
  
- 18. Синхронизировать внешний и локальный репозиторий TXT       git pull
+18. Синхронизировать внешний и локальный репозиторий TXT       
+git pull
