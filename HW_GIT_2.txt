@@ -77,8 +77,10 @@ git commit -m "add CheckLists"
 git push
 
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
-
+Открыть ветку CheckLists
+Compare & pull request
+Сreate pull request
 
 10. Синхронизировать Внешнюю и Локальную ветки Main
-
-
+git checkout main
+git pull
