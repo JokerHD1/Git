@@ -10,7 +10,7 @@ git branch Jmeter
 - CheckLists
 git branch CheckLists
 
-- Bag Reports
+- Bug Reports
 git branch Bug_Reports
 
 - SQL
@@ -25,7 +25,7 @@ git branch Mobile_testing
 2. Запушить все ветки на внешний репозиторий
 git push -u origin Postman Jmeter CheckLists Bug_Reports SQL Charles Mobile_testing
 
-3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
+3. В ветке Bug Reports сделать текстовый документ со структурой баг репорта
 git checkout Bug_Reports
 touch Bug_reports.txt
 nano Bug_reports.txt
@@ -46,17 +46,35 @@ git add .
 git commit -m "add bug_reports.txt"
 git push
 
-5. Вмержить ветку Bag Reports в Main
-
+5. Вмержить ветку Bug Reports в Main
+git checkout main
+git merge Bug_reports
 
 6. Запушить main на внешний репозиторий.
-
+git push -u origin main
 
 7. В ветке CheckLists набросать структуру чек листа.
+git checkout CheckLists
+touch CheckLists.txt
+nano Checklists.txt
 
+Item                                                   Result
+COMPONENT_NAME
+SUBCOMPONENT_NAME
+QUALITY_CRITERIA
+QUALITY_CRITERIA
+QUALITY_CRITERIA
+SUBCOMPONENT2_NAME
+QUALITY_CRITERIA
+QUALITY_CRITERIA
+QUALITY_CRITERIA
+
+ctrl+x y Enter
 
 8. Запушить структуру на внешний репозиторий
-
+git add CheckLists.txt
+git commit -m "add CheckLists"
+git push
 
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
 
